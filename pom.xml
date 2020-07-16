@@ -171,6 +171,13 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<extensions>
+			<extension>
+				<groupId>com.github.platform-team</groupId>
+				<artifactId>aws-maven</artifactId>
+				<version>6.0.0</version>
+			</extension>
+		</extensions>
 	</build>
 	<profiles>
 		<profile>
